@@ -18,7 +18,8 @@ var loadingIcon = document.createElement('div');
 var finishIcon = document.createElement('i');
 
 loadingIcon.classList.add("loader");
-finishIcon.classList.add("fa","fa-check", "icono-finish");
+//finishIcon.classList.add("fa","fa-check", "icono-finish");
+finishIcon.classList.add("icon-check", "icono-finish");
 
 inputComment.addEventListener('keyup', function (event){
     limitWords(this);
